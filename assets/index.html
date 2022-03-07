@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/styles.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+
+    <!-- BOX ICONS -->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Anish Khosla</title>
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header class="one-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav_logo">Anish</a>
+            </div>
+
+            <div class="nav_menu" id="nav-menu">
+                <ul class="nav_list">
+                    <li class="nav_item"><a href="#home" class="nav_link active">Home</a></li>
+                    <li class="nav_item"><a href="#about" class="nav_link">About</a></li>
+                    <li class="nav_item"><a href="#skills" class="nav_link">Skills</a></li>
+                    <li class="nav_item"><a href="#projects" class="nav_link">Projects</a></li>
+                    <li class="nav_item"><a href="#education" class="nav_link">Education</a></li>
+                    <li class="nav_item"><a href="#contact" class="nav_link">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="nav_toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="1-main">
+
+        <!-- HOME -->
+        <section class="home bd-grid" id="home">
+            <div class="home_data">
+                <h1 class="home_title">Hi, <br>I am <span class="home_title-color">Anish</span><br>I write code.</h1>
+                <a href="AnishKhosla_CV copy.pdf" class="button">View CV</a>
+            </div>
+
+            <div class="home_social">
+                <a href="https://www.linkedin.com/in/anish-khosla-b24284187?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BitpI3UlhRC6Zf6It%2FcRkuA%3D%3D" class="home_social-icon" target="_blank"><i class='bx bxl-linkedin' ></i></a>
+                <a href="https://github.com/anish-21" class="home_social-icon" target="_blank"><i class='bx bxl-github' ></i></a>
+            </div>
+
+            <div class="home_img">
+                <img src="img/AnishKhosla.png">
+            </div>
+        </section>
+
+        <!-- ABOUT -->
+        <section class="about section" id="about">
+            <h2 class="section-title">About</h2>
+
+            <div class="about_container bd-grid">
+                <div class="about_img">
+                    <img src="img/AnishKhosla_About.jpg" alt="">
+                </div>
+                <div>
+                    <h2 class="about_subtitle">I am Anish</h2>
+                    <p class="about_text">I am currently a second year engineering student. I have recently developed an interest for coding and I have been exploring various technical domains such as AI, ML, Data Science/Analytics, Front-End web development with the help of online courses and tutorials. </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SKILLS -->
+        <section class="skills section" id="skills">
+            <h2 class="section-title">Skills</h2>
+
+            <div class="skills_container bd-grid">
+                <h2 class="skills_subtitle">Professional Skills</h2>
+                <p class="skills_text">Python libraries I am familiar with include: NumPy, Pandas, OpenCV, Matplotlib, Seaborn, BeatifulSoup. I have thoroughly studied C++ and Object Oriented Programing in my High School. I have used HTML, CSS and some basic Javascript to develop this website. </p>
+                
+                <div class="skills_data">
+                    <div class="skills_names">
+                        <i class='bx bxl-python skills_icon' ></i>                       
+                        <span class="skills_name">Python</span>
+                    </div>
+                    <span class="skills_percentage">75</span>
+                    <div class="skills_bar skills_python"></div>
+                </div>
+
+                <div class="skills_data">
+                    <div class="skills_names">
+                        <i class='bx bxl-html5 skills_icon' ></i>
+                        <span class="skills_name">HTML</span>
+                    </div>
+                    <span class="skills_percentage">65</span>
+                    <div class="skills_bar skills_html"></div>
+                </div>
+
+                <div class="skills_data">
+                    <div class="skills_names">
+                        <i class='bx bxl-css3 skills_icon' ></i>
+                        <span class="skills_name">CSS</span>
+                    </div>
+                    <span class="skills_percentage">45</span>
+                    <div class="skills_bar skills_css"></div>
+                </div>
+
+                <div class="skills_data">
+                    <div class="skills_names">
+                        <i class='bx bxl-javascript skills_icon' ></i>
+                        <span class="skills_name">JavaScript</span>
+                    </div>
+                    <span class="skills_percentage">20</span>
+                    <div class="skills_bar skills_js"></div>
+                </div>
+
+                <div class="skills_data">
+                    <div class="skills_names">
+                        <i class='bx bxl-c-plus-plus skills_icon' ></i>
+                        <span class="skills_name">C++</span>
+                    </div>
+                    <span class="skills_percentage">60</span>
+                    <div class="skills_bar skills_cpp"></div>
+                </div>
+
+                <div class="skills_data">
+                    <div class="skills_names">
+                        <i class='bx bxs-data skills_icon' ></i>
+                        <span class="skills_name">SQL</span>
+                    </div>
+                    <span class="skills_percentage">25</span>
+                    <div class="skills_bar skills_sql"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- WORK -->
+
+
+        <section class="works section" id="projects">
+            <h2 class="section-title">Projects</h2>
+                
+            <div class="carousel" data-flickity='{ "wrapAround": true }'>
+                <div class="carousel-cell">
+
+                    <div class="works_img">
+                        <img src="img/work1.jpg" class="works_img_resize" alt="">
+                        <div class="works_data">
+                            <a href="https://github.com/anish-21/Python-Object-Detection" class="works_link" target="_blank"><i class='bx bx-link'></i></a>
+                            <span class="works_title">Object Detection Model</span>
+                            <p class="work-text">Created an Object Detection model using Yolo algorithm and OpenCV in Python. Time taken to complete this project was approximately 14 days. IDE used: VS Code</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-cell">
+                    <div class="works_img">
+                        <img src="img/work2.jpg" class="works_img_resize" alt="">
+                        <div class="works_data">
+                            <a href="#" class="works_link" target="_blank"><i class='bx bx-link'></i></a>
+                            <span class="works_title">Personal Portfolio Website</span>
+                            <p class="work-text">Creating a responsive Personal Portfolio Website using HTML, CSS, JavaScript. It took approximately 16 days to complete this project. IDE used: VS Code</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-cell">
+                    <div class="works_img">
+                        <img src="img/work3.jpg" class="works_img_resize" alt="">
+                        <div class="works_data">
+                            <a href="#" class="works_link" target="_blank"><i class='bx bx-link'></i></a>
+                            <span class="works_title">Data Analytics - DUE</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-cell">
+                    <div class="works_img">
+                        <img src="img/work4.jpg" class="works_img_resize" alt="">
+                        <div class="works_data">
+                            <a href="#" class="works_link" target="_blank"><i class='bx bx-link'></i></a>
+                            <span class="works_title">Project 4</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="carousel-cell">
+                    <div class="works_img">
+                        <img src="img/work5.jpg" class="works_img_resize" alt="">
+                        <div class="works_data">
+                            <a href="#" class="works_link" target="_blank"><i class='bx bx-link'></i></a>
+                            <span class="works_title">Project 5</span>
+                        </div>
+                    </div>
+                </div>
+            </div>              
+        </section>
+        
+        <!-- EDUCATION -->
+
+        <section class="education section" id="education">
+            <!-- <span class="section-subtitle">Qualifications</span> -->
+            <h2 class="section-title">My Education</h2>
+
+            <div class="education_container bd-grid">
+
+                <div class="education_content">
+                    <div>
+                        <h3 class="education_year">2020 - 2024</h3>
+                        <span class="education_university">Thapar Institute of Engineering and Technology, Patiala</span>
+                    </div>
+                    <div class="education_time">
+                        <span class="education_rounder"></span>
+                        <span class="education_line"></span>
+                    </div>
+                    <div>
+                        <h3 class="education_race">Bachelors of Technology</h3>
+                        <span class="education_specialty">Electronics (Instrumentation and Control)</span>
+                    </div>
+                </div>
+
+                <div class="education_content">
+                    <div>
+                        <h3 class="education_year">2013 - 2020</h3>
+                        <span class="education_university"> Delhi Public School R.K. Puram, New Delhi</span>
+                    </div>
+                    <div class="education_time">
+                        <span class="education_rounder"></span>
+                        <span class="education_line"></span>
+                    </div>
+                    <div>
+                        <h3 class="education_race">High School Diploma</h3>
+                        <span class="education_specialty">Science, Computer Science</span>
+                    </div>
+                </div>
+
+            </div>    
+        </section>
+
+        <!-- CONTACT -->
+        <section class="contact section" id="contact">
+            <h2 class="section-title">Contact</h2>
+
+            <div class="contact_container bd-grid">
+                <form class="contact_form" action="https://formsubmit.co/khosla.anish21@gmail.com" method="POST">
+                    <input type="text" name="name" placeholder="Name" class="contact_input" required>
+                    <input type="mail" name="email" placeholder="Email" class="contact_input" required>
+                    <textarea name="text" cols="0" rows="10" placeholder="Enter message..." class="contact_input" id="message"></textarea>
+
+                    <input type="submit" value="Submit" class="contact_button button">
+                </form>
+            </div>
+        </section>     
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <p class="footer_title">Anish Khosla</p>
+
+        <div class="footer_social">
+            <a href="https://www.linkedin.com/in/anish-khosla-b24284187?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BitpI3UlhRC6Zf6It%2FcRkuA%3D%3D" class="footer_icon"><i class='bx bxl-linkedin' ></i></a>
+            <a href="https://github.com/anish-21" class="footer_icon"><i class='bx bxl-github' ></i></a>
+            <a href="mailto:khosla.anish21@gmail.com" class="footer_icon"><i class='bx bxl-gmail'></i></a>
+        </div>
+        <p>&#169; 2022 copyright all right reserved</p>
+    </footer>
+
+    <!-- SCROLL REVEAL -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- MAIN JS -->
+    <script src="js/main.js"></script>
+
+    <!-- FLICKITY SLIDER -->
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+</body>
+</html>
